@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=M+PLUS+Code+Latin:wght@300;400;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+header {
+  background-color: #24252a;
+  box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 0.6rem;
+  justify-content: space-between;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.img-logo {
+  width: 48px;
+}
+
+.profile {
+  color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+main {
+  background-color: #464642;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.img-cat {
+  padding: 1.3rem;
+}
+
+.img-construction {
+  width: 100%;
+  height: 100%;
+  padding: 10.7rem;
+}
+
+.info {
+  margin: 6rem;
+  padding-top: 1rem;
+}
+
+.info p {
+  font-size: 1.rem;
+  margin-bottom: 1rem;
+}
+
+.tech-info {
+  margin-top: 1rem;
+}
+
+.img-tech {
+  width: 5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #24252a;
+}
+
+footer p {
+  padding: 0.5rem;
+  font-size: 1.15rem;
+  color: #fff;
+}
